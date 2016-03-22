@@ -1,0 +1,907 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fotomag1.0\n"
+"POT-Creation-Date: 2016-03-20 17:30-0000\n"
+"PO-Revision-Date: 2016-03-20 17:32-0000\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2;"
+"esc_html__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "The page you are looking for could not be found"
+msgstr "La página que está buscando no se pudo encontrar."
+
+#: ../author.php:31
+msgid "Website"
+msgstr "Sitio web"
+
+#: ../comments.php:7
+msgid "No Comments"
+msgstr "No hay comentarios"
+
+#: ../comments.php:7
+msgid "One Comment"
+msgstr "Un comentario"
+
+#: ../comments.php:7
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: ../comments.php:20
+msgid "&larr; Previous Comments"
+msgstr "&larr; Comentarios Anteriores"
+
+#: ../comments.php:21
+msgid "More Comments &rarr;"
+msgstr "Más Comentarios &rarr;"
+
+#: ../comments.php:27
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: ../footer.php:56
+msgid "Back to top"
+msgstr "Volver arriba"
+
+#: ../functions.php:48
+msgid "Slide-In Navigation Menu"
+msgstr "Titulo De Navegación "
+
+#: ../functions.php:49
+msgid "Header 2 Navigation Menu"
+msgstr "Cabezera Navegación"
+
+#: ../functions.php:50
+msgid "Footer Navigation Menu"
+msgstr "Piez Navegación "
+
+#: ../header.php:78
+msgid "Search"
+msgstr "Buscar"
+
+#: ../inc/cb-posts-none.php:4
+msgid "No published posts found."
+msgstr "No se encontraron artículos"
+
+#: ../library/admin/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Instalar Plugins Obligatorios"
+
+#: ../library/admin/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Instalar Plugins"
+
+#: ../library/admin/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin %s"
+
+#: ../library/admin/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Error en el API"
+
+#: ../library/admin/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins"
+
+#: ../library/admin/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Volver al instalador de plugins"
+
+#: ../library/admin/class-tgm-plugin-activation.php:399
+#: ../library/admin/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "Plugin activado"
+
+#: ../library/admin/class-tgm-plugin-activation.php:400
+#: ../library/admin/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Plugin activado"
+msgstr[1] "Plugins activados"
+
+#: ../library/admin/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Plugin %1$s  ya estaba activado"
+
+#: ../library/admin/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "Plugin no instalado. Una version mas reciente de %s es necesaria."
+
+#: ../library/admin/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos plugins fueron instalados. %1$s"
+
+#: ../library/admin/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Esconder aviso"
+
+#: ../library/admin/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Instalar Plugins Obligatorios"
+
+#: ../library/admin/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:828
+#: ../library/admin/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:935
+#: ../library/admin/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Instalar"
+
+#: ../library/admin/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3370
+#: ../library/admin/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3370
+#: ../library/admin/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../library/admin/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../library/admin/customizer.php:23
+msgid "Header Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:36
+msgid "Header Menu Padding: Top (px)"
+msgstr ""
+
+#: ../library/admin/customizer.php:52
+msgid "Header Logo"
+msgstr ""
+
+#: ../library/admin/customizer.php:60 ../library/admin/customizer.php:96
+#: ../library/admin/customizer.php:927
+msgid "Retina Logo should be exactly double the size of the normal logo"
+msgstr ""
+
+#: ../library/admin/customizer.php:61
+msgid "Header Logo (Retina version)"
+msgstr ""
+
+#: ../library/admin/customizer.php:69
+msgid "Make header background transparent inside posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:70
+msgid "Transparent Header in Posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:79 ../library/admin/customizer.php:95
+msgid ""
+"If desired, you can set a light version of your logo to show inside posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:80
+msgid "Header Logo For Posts (optional)"
+msgstr ""
+
+#: ../library/admin/customizer.php:97
+msgid "Header Logo For Posts (Retina version)"
+msgstr ""
+
+#: ../library/admin/customizer.php:113
+msgid "Header Padding: Top (px)"
+msgstr ""
+
+#: ../library/admin/customizer.php:122
+msgid "Header Padding: Bottom (px)"
+msgstr ""
+
+#: ../library/admin/customizer.php:133
+msgid "Left Navigation Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:140
+msgid "Show Search In Menu"
+msgstr ""
+
+#: ../library/admin/customizer.php:150 ../library/admin/customizer.php:420
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../library/admin/customizer.php:160 ../library/admin/customizer.php:177
+#: ../library/admin/customizer.php:212 ../library/admin/customizer.php:430
+#: ../library/admin/customizer.php:464 ../library/admin/customizer.php:482
+#: ../library/admin/customizer.php:973 ../library/admin/customizer.php:993
+#: ../library/admin/customizer.php:1004 ../library/admin/customizer.php:1013
+#: ../library/admin/customizer.php:1023 ../library/admin/customizer.php:1033
+#: ../library/admin/customizer.php:1043 ../library/admin/customizer.php:1053
+msgid "Enter your username only"
+msgstr ""
+
+#: ../library/admin/customizer.php:195 ../library/admin/customizer.php:447
+#: ../library/admin/customizer.php:983
+msgid "Enter the profile part only (everything after www.facebook.com/)"
+msgstr ""
+
+#: ../library/admin/customizer.php:229
+msgid "Show Subscribe Button"
+msgstr ""
+
+#: ../library/admin/customizer.php:239
+msgid "- Subscribe Button Text"
+msgstr ""
+
+#: ../library/admin/customizer.php:255
+msgid "- Popup Title"
+msgstr ""
+
+#: ../library/admin/customizer.php:271
+msgid "- Popup Subtitle"
+msgstr ""
+
+#: ../library/admin/customizer.php:287
+msgid "- Subscribe Code"
+msgstr ""
+
+#: ../library/admin/customizer.php:288
+msgid "Enter the form shortcode here"
+msgstr ""
+
+#: ../library/admin/customizer.php:304
+msgid "- Subscribe Popup Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:320
+msgid "- Subscribe Background Image"
+msgstr ""
+
+#: ../library/admin/customizer.php:335
+msgid "- Subscribe Background Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:351
+msgid "- Subscribe Background Image Opacity"
+msgstr ""
+
+#: ../library/admin/customizer.php:373
+msgid "Slide In Menu Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:375
+msgid ""
+"You need to set a menu to the Slide-In Navigation Menu Location before "
+"setting these options up."
+msgstr ""
+
+#: ../library/admin/customizer.php:381
+msgid "Background Image"
+msgstr ""
+
+#: ../library/admin/customizer.php:389
+msgid "Background Image Opacity"
+msgstr ""
+
+#: ../library/admin/customizer.php:403
+msgid "Background Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:411
+msgid "Text/Icons Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:500
+msgid "Post Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:507
+msgid "Show Category Above Title"
+msgstr ""
+
+#: ../library/admin/customizer.php:517
+msgid "Show Down Arrow On Image"
+msgstr ""
+
+#: ../library/admin/customizer.php:527
+msgid "Show Like System"
+msgstr ""
+
+#: ../library/admin/customizer.php:537 ../library/admin/customizer.php:647
+msgid "Show Progress Bar"
+msgstr ""
+
+#: ../library/admin/customizer.php:547
+msgid "Show Author Box"
+msgstr ""
+
+#: ../library/admin/customizer.php:557
+msgid "Show Publish Date"
+msgstr ""
+
+#: ../library/admin/customizer.php:567
+msgid "Show Tags"
+msgstr ""
+
+#: ../library/admin/customizer.php:577 ../library/admin/customizer.php:657
+msgid "Show Sharing Block"
+msgstr ""
+
+#: ../library/admin/customizer.php:588
+msgid "Show Next + Previous Posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:598 ../library/admin/customizer.php:667
+msgid "Show Comments"
+msgstr ""
+
+#: ../library/admin/customizer.php:608
+msgid "Show Related Posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:618
+msgid "Ajax Autoload More Posts"
+msgstr ""
+
+#: ../library/admin/customizer.php:619
+#, php-format
+msgid ""
+"When a user reaches 100% scroll progress in a post, the theme can autoload "
+"the next post so no need for user clicks. Fotomag will also tell Google "
+"Analytics about this (pageview)."
+msgstr ""
+
+#: ../library/admin/customizer.php:629
+msgid ""
+"If no featured image is set, you can set a placeholder image to use outside "
+"of the post, such as on the homepage."
+msgstr ""
+
+#: ../library/admin/customizer.php:630
+msgid "Placeholder Image"
+msgstr ""
+
+#: ../library/admin/customizer.php:640
+msgid "Pages Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:679
+msgid "Layouts"
+msgstr ""
+
+#: ../library/admin/customizer.php:686
+msgid "Homepage Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:700
+msgid "Tags Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:714
+msgid "This is to show the word Tag: before the tag title on tag pages"
+msgstr ""
+
+#: ../library/admin/customizer.php:715
+msgid "Show word \"Tag:\""
+msgstr ""
+
+#: ../library/admin/customizer.php:725
+msgid "Searches Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:739
+msgid "Author Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:753
+msgid "Categories Layout"
+msgstr ""
+
+#: ../library/admin/customizer.php:767
+msgid ""
+"This is to show the word Category: before the category title on category "
+"pages"
+msgstr ""
+
+#: ../library/admin/customizer.php:768
+msgid "Show word \"Category:\""
+msgstr ""
+
+#: ../library/admin/customizer.php:778
+msgid "Layout A For Specific Categories:"
+msgstr ""
+
+#: ../library/admin/customizer.php:789
+msgid "Layout B For Specific Categories:"
+msgstr ""
+
+#: ../library/admin/customizer.php:800
+msgid "Layout C For Specific Categories:"
+msgstr ""
+
+#: ../library/admin/customizer.php:813
+msgid "Typography"
+msgstr ""
+
+#: ../library/admin/customizer.php:821
+msgid "Font Size (Big Screens)"
+msgstr ""
+
+#: ../library/admin/customizer.php:835
+msgid "Font Line Height (Big Screens)"
+msgstr ""
+
+#: ../library/admin/customizer.php:849
+msgid "Font Size (Mobile Devices)"
+msgstr ""
+
+#: ../library/admin/customizer.php:863
+msgid "Font Line Height (Mobile Devices)"
+msgstr ""
+
+#: ../library/admin/customizer.php:877
+msgid "Headings/Titles Font"
+msgstr ""
+
+#: ../library/admin/customizer.php:887
+msgid "Subtitle and Article Body Font"
+msgstr ""
+
+#: ../library/admin/customizer.php:897
+msgid "Google-Font Scripts To Load"
+msgstr ""
+
+#: ../library/admin/customizer.php:898
+msgid "If your language has special characters, enable them here."
+msgstr ""
+
+#: ../library/admin/customizer.php:911
+msgid "Footer Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:919
+msgid "Footer Logo"
+msgstr ""
+
+#: ../library/admin/customizer.php:928
+msgid "Footer Logo (Retina version)"
+msgstr ""
+
+#: ../library/admin/customizer.php:936
+msgid "Text Under Logo"
+msgstr ""
+
+#: ../library/admin/customizer.php:946
+msgid "To Top Button"
+msgstr ""
+
+#: ../library/admin/customizer.php:957
+msgid "Copyright Line"
+msgstr ""
+
+#: ../library/admin/customizer.php:966
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../library/admin/customizer.php:1065
+msgid "Font Color Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:1072
+msgid "Article Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1081
+msgid "Article Headings Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1090
+msgid "Article Blockquotes Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1099
+msgid "Article Links Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1108
+msgid "Article Links Hover Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1118
+msgid "Widget Links Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1127
+msgid "Widget Links Hover Font Color"
+msgstr ""
+
+#: ../library/admin/customizer.php:1140
+msgid "Extra Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:1147
+msgid "Lightbox"
+msgstr ""
+
+#: ../library/admin/customizer.php:1157
+msgid ""
+"Even if enabled, it will not load on Macs. As Macs already have native "
+"smooth scroll."
+msgstr ""
+
+#: ../library/admin/customizer.php:1158
+msgid "Smooth Scroll"
+msgstr ""
+
+#: ../library/admin/customizer.php:1168
+msgid "Minify JavaScript"
+msgstr ""
+
+#: ../library/admin/customizer.php:1178
+msgid ""
+"Enabling this allows for Video Posts to play YouTube video with big play "
+"button."
+msgstr ""
+
+#: ../library/admin/customizer.php:1179
+msgid "Load YouTube API"
+msgstr ""
+
+#: ../library/admin/customizer.php:1188
+msgid ""
+"If you have the progress bar enabled, this option is for showing the "
+"progress in a percentage number next to the bar."
+msgstr ""
+
+#: ../library/admin/customizer.php:1189
+msgid "Show percentage in progress bar."
+msgstr ""
+
+#: ../library/admin/customizer.php:1198
+msgid "Pagination Style"
+msgstr ""
+
+#: ../library/admin/customizer.php:1203
+msgid "Number Pagination"
+msgstr ""
+
+#: ../library/admin/customizer.php:1204
+msgid "Infinite Scroll With Load More Button"
+msgstr ""
+
+#: ../library/admin/customizer.php:1215
+msgid "Custom Code Options"
+msgstr ""
+
+#: ../library/admin/customizer.php:1222
+msgid "Custom CSS"
+msgstr ""
+
+#: ../library/admin/customizer.php:1236
+msgid "Custom JavaScript"
+msgstr ""
+
+#: ../library/admin/github.php:80 ../library/admin/github.php:90
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../library/admin/github.php:284
+#, php-format
+msgid ""
+"%sActivate the Envato Market plugin%s to get updates for your ThemeForest "
+"and CodeCanyon items."
+msgstr ""
+
+#: ../library/admin/github.php:295
+#, php-format
+msgid ""
+"%sInstall the Envato Market plugin%s to get updates for your ThemeForest and "
+"CodeCanyon items."
+msgstr ""
+
+#: ../library/core.php:315
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] "%d resultados para:"
+msgstr[1] "%d resultados para:"
+
+#: ../library/core.php:341
+msgid "See all results"
+msgstr "Ver todos los resultados"
+
+#: ../library/core.php:346
+msgid "No results found"
+msgstr "Ningún resultado para:"
+
+#: ../library/core.php:468
+msgid "Previous"
+msgstr "Previo Artículo"
+
+#: ../library/core.php:478
+msgid "Next"
+msgstr "Siguiente Artículo"
+
+#: ../library/core.php:505
+msgid "Share:"
+msgstr "Compartir"
+
+#: ../library/core.php:546
+msgid "More Stories"
+msgstr "Más Artículos"
+
+#: ../library/core.php:579
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: ../library/core.php:582
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación"
+
+#: ../library/core.php:610
+msgid "By"
+msgstr "Por"
+
+#: ../library/core.php:686
+msgid "No more articles"
+msgstr "No Hay Más Artículos"
+
+#: ../library/core.php:687
+msgid "Load More"
+msgstr "Ver Mas"
+
+#: ../library/core.php:973
+#, php-format
+msgid "View all posts in %s"
+msgstr "Ver todos los artículos de %s"
+
+#: ../page.php:20 ../post-formats/format-audio.php:8
+#: ../post-formats/format-gallery.php:48 ../post-formats/format-video.php:8
+#: ../post-formats/format.php:8
+msgid "Pages:"
+msgstr "Paginas:"
+
+#: ../search.php:8
+msgid "Search results for"
+msgstr "Resultados De Búsqueda De:"
+
+#: ../search.php:31
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "No se encontraron resultados"
+
+#: ../searchform.php:3
+msgid "Search..."
+msgstr "Buscar..."

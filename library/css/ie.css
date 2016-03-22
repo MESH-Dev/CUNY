@@ -1,0 +1,80 @@
+/*
+Theme Name: Fotomag
+Theme URI: http://themeforest.net/user/cubell
+Author: Cubell
+Author URI: http://themeforest.net/user/cubell
+Description: 
+Version: 1.1.0
+License: http://themeforest.net/licenses/regular_extended
+License URI: http://themeforest.net/licenses/regular_extended
+*/
+/*------------------------------------------------------------------
+[Table of contents]
+	1. IE Specific
+*/
+.cb-menu-overlay {
+  -webkit-transform: translate(100%, -50%);
+  -ms-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+}
+
+.cb-m-modal-on .cb-menu-overlay {
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.cb-post-format-embed {
+  webkit-transform: translate(-50%, -60%);
+  -ms-transform: translate(-50%, -60%);
+  transform: translate(-50%, -60%);
+}
+
+.cb-pf-modal-on .cb-post-format-embed {
+  webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+#cb-search-overlay {
+  -webkit-transform: translate(-55%, -50%);
+  -ms-transform: translate(-55%, -50%);
+  transform: translate(-55%, -50%);
+}
+
+.cb-s-modal-on #cb-search-overlay {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cb-sub-modal-on .cb-sub-modal {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cb-sub-modal {
+  -webkit-transform: translate(-55%, -50%);
+  -ms-transform: translate(-55%, -50%);
+  transform: translate(-55%, -50%);
+}
+
+.cb-mob-freeze .cb-nav-sides {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.mc4wp-form-fields input {
+  height: 50px;
+}

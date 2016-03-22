@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'industry_inccutline';
+  src: url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.eot');
+  src: url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.woff2') format('woff2'),
+       url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.woff') format('woff'),
+       url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.ttf') format('truetype'),
+       url('../fonts/hold_fast_foundry_-_industry_inc_cutline-webfont.svg#industry_inccutline') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
