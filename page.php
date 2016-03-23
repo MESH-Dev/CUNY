@@ -1,49 +1,55 @@
 <?php get_header(); ?>
 
-			<div id="cb-content" class="clearfix">
+	<div id="cb-content" class="clearfix">
 
-				<div id="cb-inner-content" class="cb-inner-content-area clearfix">
+		<div id="cb-inner-content" class="cb-inner-content-area clearfix">
 
-					<main id="cb-main" class="clearfix">
+			<main id="cb-main" class="clearfix">
 
-						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-							
-							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
+				<?php
 
-								<?php fotomag_featured_image(); ?>
+				$the_query = new WP_Query( array( 'post_type' => 'post') );
 
-								<section id="cb-entry-content" class="entry-content wrap clearfix">
+				?>
 
-								    <?php the_content(); ?>
+				<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-								    <?php wp_link_pages( array(
-								            'before'      => '<div class="cb-page-links"><span class="cb-page-links-title">' . esc_html__( 'Pages:', 'fotomag' ) . '</span>',
-								            'after'       => '</div>',
-								            'link_before' => '<span class="cb-page-number">',
-								            'link_after'  => '</span>',
-								        ) );
-								    ?>
+					<?php if(get_the_id() == 6) { ?>
 
-								    <?php if ( get_theme_mod( 'fotomag_set_pages_sharing', false ) == true ) { fotomag_sharing_block(); } ?>
+					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
 
-								</section>
+						<?php get_template_part( 'post-formats/format', get_post_format() ); ?>
 
-								<footer class="article-footer">
+						<?php if ( get_theme_mod( 'fotomag_set_post_autoload', false ) == true ) { ?><span id="cb-al"></span><?php } ?>
 
-							        <?php if ( get_theme_mod( 'fotomag_set_pages_comments', true ) == true ) { comments_template(); } ?>
-							        
-							    </footer> 
+						<footer class="article-footer clearfix">
 
-							</article>
+					        <?php if ( get_theme_mod( 'fotomag_set_post_author', true ) == true ) { fotomag_written_by(); } ?>
 
-						<?php endwhile; ?>
+					        <?php if ( get_theme_mod( 'fotomag_set_post_next_previous', true ) == true ) { ?>
+					        	<span class="cb-separator wrap"></span>
+					        	<?php fotomag_previous_next_posts(); ?>
+					        <?php } ?>
 
-						<?php endif; ?>
+					        <span class="cb-separator wrap"></span>
 
-					</main>
+					        <?php if ( get_theme_mod( 'fotomag_set_post_comments', true ) == true ) { comments_template(); } ?>
 
-				</div>
+					    </footer>
+					    <?php if ( get_theme_mod( 'fotomag_set_post_related', true ) == true ) { fotomag_related_posts(); } ?>
 
-			</div>
+					</article>
+
+					<?php } ?>
+
+				<?php endwhile; ?>
+
+				<?php endif; ?>
+
+			</main>
+
+		</div>
+
+	</div>
 
 <?php get_footer(); ?>

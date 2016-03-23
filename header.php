@@ -9,9 +9,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/fonts.css">
 		<style>
-			.entry-title-primary {
-				font-family: 'industry_inccutline';
-				font-size: 80px;
+			@media (min-width: 481px) {
+				.entry-title-primary {
+					font-family: 'industry_inccutline';
+					font-size: 80px !important;
+					line-height: 1em !important;
+				}
+			}
+			@media (max-width: 480px) {
+				.entry-title-primary {
+					font-size: 52px !important;
+					font-family: 'industry_inccutline';
+					line-height: 1em !important;
+				}
 			}
 		</style>
 		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>

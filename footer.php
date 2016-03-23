@@ -8,14 +8,14 @@
         <?php if ( ( $fotomag_footer_copyright != NULL ) || ( $fotomag_footer_to_top == true ) || ( has_nav_menu( 'fotomag_footer' ) ) || ( $fotomag_footer_logo != NULL ) || ( is_active_sidebar( 'cb-under-footer' ) == true ) ) { ?>
 
             <footer id="cb-footer" class="cb-footer-area clearfix" itemscope itemtype="http://schema.org/WPFooter">
-                
+
                 <div class="cb-footer-last cb-border cb-border-mob clearfix">
 
                 	<?php if ( $fotomag_footer_logo != NULL ) { ?>
                         <div class="cb-logo-area cb-footer-logo cb-footer-last-block">
-                            <a href="<?php echo esc_url( home_url('/') );?>" class="cb-logo-link">
-                                <img src="<?php echo esc_url( $fotomag_footer_logo ); ?>" alt="<?php esc_html( get_bloginfo( 'name' ) ); ?> logo" <?php if ( $fotomag_footer_logo_retina != NULL ) { ?> data-at2x="<?php echo esc_url( $fotomag_footer_logo_retina ); ?>"<?php } ?>>
-                            </a>
+
+                              <img src="<?php echo esc_url( $fotomag_footer_logo ); ?>" alt="<?php esc_html( get_bloginfo( 'name' ) ); ?> logo" <?php if ( $fotomag_footer_logo_retina != NULL ) { ?> data-at2x="<?php echo esc_url( $fotomag_footer_logo_retina ); ?>"<?php } ?>>
+
                         </div>
                     <?php } ?>
 
@@ -41,7 +41,7 @@
                     <?php if ( has_nav_menu( 'fotomag_footer' ) ) { fotomag_footer_nav(); } ?>
 
                     <?php fotomag_footer_social_icons(); ?>
-                    
+
                     <div class="cb-copyright cb-footer-last-block clearfix">
                         <?php if ( get_theme_mod('fotomag_set_footer_copyright_line', '' ) != NULL ) { ?>
                             <div class="cb-copyright-line cb-copyright-block"><?php echo esc_html( get_theme_mod('fotomag_set_footer_copyright_line', '' ) ); ?></div>
@@ -86,13 +86,13 @@
                 <div class="cb-background"></div>
             </div>
         <?php } ?>
-    
+
         <?php fotomag_search_overlay(); ?>
 
         <?php fotomag_post_formats_overlay(); ?>
 
 		<?php wp_footer(); ?>
-    
+
 	</body>
 
 </html> <!-- The End. Phew, what a ride! -->
