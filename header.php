@@ -23,6 +23,10 @@
 					line-height: 1em !important;
 				}
 			}
+
+			.entry-content h6 {
+				line-height: 24px !important;
+			}
 		</style>
 		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 			<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
